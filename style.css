@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#navbar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar #left img{
+    width: 200px;
+    height: 150px;
+   margin: 30px;
+   padding-bottom: 20px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+#right a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-right: 20px;
+    font-size: 1vw;
+}
+#Middle{
+    padding: 95px;
+    height: 440px;
+}
+#Middle .heading{
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    gap: 40px;
+    padding-left: 120px;
+    font-weight: 900;
+}
+#Middle h5{
+    padding-left: 120px;
+    font-size: 1.6vw;
+}
+.heading h1{
+    color: transparent;
+    -webkit-text-stroke: 0.8px  black;
+    line-height: 1;
+}
+#btmmiddle{
+    padding: 20px 120px;
+    width: 100%;
+}
+#btmmiddle p{
+    font-size: 1.6vw;
+    letter-spacing: 1.5px;
+    font-weight: 540;
+    line-height: 1.6;
+}
+#firsthead{
+    width: 50%;
+    height: 170px;
+}
+#firsthead h1{
+    font-size: 4.7vw;
+    font-weight: 400;
+}
+#ptrans{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+#featureimag{
+    width: 100%;
+    border: 1px solid red
+}
+#ending{
+    padding: 10vw 15vw;
+}
+#endimages{
+   padding: 1vw 0vw;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+#leftimg{
+    width: 45%;
+    height: inherit;
+    overflow: hidden;
+}
+#rightimg{
+    width: 45%;
+    min-height: inherit;
+}
+#rightimg .img{
+    width: 90%;
+    height: 95%;
+}
+#rightimg .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#leftimg .leftelem{
+    width: 100%;
+    height: inherit;
+}
+.leftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   letter-spacing: 1px;
+   padding-bottom: 50px
+}
+.leftelem h1{
+    font-size: 2.5vw;
+}
+.leftelem h4{
+    opacity: .5;
+}
+.leftelem h3{
+    font-weight: 400;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#btn button{
+     border-radius: 20px;
+     margin-top: 30px;
+     padding: 1vw 2.8vw;
+     font-size: 10px;
+     border: 1px solid rgb(131, 122, 122);
+    cursor: pointer;
+
+}
+#footer{
+    margin-top: 14vw;
+    width: 80%;
+}
+#footer h1{
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+   margin: 1vw;
+}
+#footer h3{
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding-left: 20px;
+}
+#endfoot{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 6vw;
+    gap: 100px;
+}
+#first{
+    width: 350px;
+}
+#second{
+    width: 350px;
+}
+#third{
+    
+        width: 350px;
+    
+}
+.dansih #imgslid{
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+
+}
+.dansih .tag{
+    margin: 15px 10px;
+    background-color: #dadada;
+    width: fit-content;
+    border-radius: 10%;
+    height: 20px;
+}
